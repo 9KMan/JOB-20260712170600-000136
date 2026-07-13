@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 760" width="1100" height="760">
+<defs>
+  <style>
+  .title{font:700 18px Inter,Helvetica Neue,sans-serif;fill:#0B2545;letter-spacing:.4px}
+  .subtitle{font:11px Inter,sans-serif;fill:#13315C;opacity:.7}
+  .node-name{font:600 13px Inter,sans-serif;fill:#0B2545}
+  .node-sub{font:10px Inter,sans-serif;fill:#13315C;opacity:.75}
+  .edge-lbl{font:500 10px Inter,sans-serif;fill:#1B9AAA}
+  .footnote{font:10px Inter,sans-serif;fill:#13315C;opacity:.55}
+  .layer-tag{font:600 11px Inter,sans-serif;fill:#1B9AAA;letter-spacing:1px}
+  </style>
+  <marker id="navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#13315C"/></marker>
+  <marker id="teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1B9AAA"/></marker>
+  <pattern id="dotgrid" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="16" cy="16" r="0.9" fill="#E5E9F0"/></pattern>
+</defs>
+<rect width="1100" height="760" fill="#FFFFFF"/>
+<rect width="1100" height="760" fill="url(#dotgrid)" opacity=".55"/>
+<text x="40" y="40" class="title">JOB-136 · Entity-Resolution Pipeline · Architecture (Style A)</text>
+<text x="40" y="60" class="subtitle">3 vendor sources → Fellegi-Sunter matching → connected-components clustering → cost waterfall + audit dashboard</text>
+  <text x="40" y="100" class="layer-tag">▍ VENDOR SOURCES</text>
+<polygon points="60,110 360,110 347.87564434701784,103.0 47.875644347017854,103.0" fill="#FFFFFF" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="360,110 360,200 347.87564434701784,193.0 347.87564434701784,103.0" fill="#F4F7FB" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="60,110 60,200 47.875644347017854,193.0 47.875644347017854,103.0" fill="#F4F7FB" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<rect x="60" y="110" width="300" height="90" fill="none" stroke="#13315C" stroke-width="1.2"/>
+<text x="210" y="148" class="node-name" text-anchor="middle">LexisNexis-style</text>
+<text x="210" y="166" class="node-sub" text-anchor="middle">A_lexisnexis</text>
+<text x="210" y="180" class="node-sub" text-anchor="middle">criminal_record · carrier</text>
+<polygon points="380,110 680,110 667.8756443470179,103.0 367.87564434701784,103.0" fill="#FFFFFF" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="680,110 680,200 667.8756443470179,193.0 667.8756443470179,103.0" fill="#F4F7FB" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="380,110 380,200 367.87564434701784,193.0 367.87564434701784,103.0" fill="#F4F7FB" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<rect x="380" y="110" width="300" height="90" fill="none" stroke="#13315C" stroke-width="1.2"/>
+<text x="530" y="148" class="node-name" text-anchor="middle">Tracers-style</text>
+<text x="530" y="166" class="node-sub" text-anchor="middle">B_tracers</text>
+<text x="530" y="180" class="node-sub" text-anchor="middle">associates · last_seen</text>
+<polygon points="700,110 1000,110 987.8756443470179,103.0 687.8756443470179,103.0" fill="#FFFFFF" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="1000,110 1000,200 987.8756443470179,193.0 987.8756443470179,103.0" fill="#F4F7FB" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="700,110 700,200 687.8756443470179,193.0 687.8756443470179,103.0" fill="#F4F7FB" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<rect x="700" y="110" width="300" height="90" fill="none" stroke="#13315C" stroke-width="1.2"/>
+<text x="850" y="148" class="node-name" text-anchor="middle">Pipl-style</text>
+<text x="850" y="166" class="node-sub" text-anchor="middle">C_pipl</text>
+<text x="850" y="180" class="node-sub" text-anchor="middle">username_count · breach_exposure</text>
+  <text x="40" y="225" class="layer-tag">▍ ENTITY-RESOLUTION ENGINE — Splink 4.0.16 Fellegi-Sunter</text>
+<polygon points="60,240 1000,240 987.8756443470179,233.0 47.875644347017854,233.0" fill="#FFFFFF" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="1000,240 1000,460 987.8756443470179,453.0 987.8756443470179,233.0" fill="#F4F7FB" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="60,240 60,460 47.875644347017854,453.0 47.875644347017854,233.0" fill="#F4F7FB" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<rect x="60" y="240" width="940" height="220" fill="none" stroke="#13315C" stroke-width="1.2"/>
+<polygon points="80,260 320,260 307.87564434701784,253.0 67.87564434701785,253.0" fill="#FFFFFF" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="320,260 320,440 307.87564434701784,433.0 307.87564434701784,253.0" fill="#F4F7FB" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="80,260 80,440 67.87564434701785,433.0 67.87564434701785,253.0" fill="#F4F7FB" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<rect x="80" y="260" width="240" height="180" fill="none" stroke="#13315C" stroke-width="1.2"/>
+<text x="200" y="295" class="node-name" text-anchor="middle">SCHEMA NORMALIZER</text>
+<text x="200" y="314" class="node-sub" text-anchor="middle">3 vendor schemas → shared columns</text>
+<text x="200" y="332" class="node-sub" text-anchor="middle">ground_truth_pid kept for audit only</text>
+<polygon points="340,260 580,260 567.8756443470179,253.0 327.87564434701784,253.0" fill="#FFFFFF" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="580,260 580,440 567.8756443470179,433.0 567.8756443470179,253.0" fill="#F4F7FB" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="340,260 340,440 327.87564434701784,433.0 327.87564434701784,253.0" fill="#F4F7FB" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<rect x="340" y="260" width="240" height="180" fill="none" stroke="#13315C" stroke-width="1.2"/>
+<text x="460" y="295" class="node-name" text-anchor="middle">FELLEGII-SUNTER</text>
+<text x="460" y="314" class="node-sub" text-anchor="middle">5 comparisons (JW + Exact)</text>
+<text x="460" y="332" class="node-sub" text-anchor="middle">u: random-sample</text>
+<text x="460" y="350" class="node-sub" text-anchor="middle">m: EM-trained</text>
+<polygon points="600,260 840,260 827.8756443470179,253.0 587.8756443470179,253.0" fill="#FFFFFF" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="840,260 840,440 827.8756443470179,433.0 827.8756443470179,253.0" fill="#F4F7FB" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="600,260 600,440 587.8756443470179,433.0 587.8756443470179,253.0" fill="#F4F7FB" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<rect x="600" y="260" width="240" height="180" fill="none" stroke="#13315C" stroke-width="1.2"/>
+<text x="720" y="295" class="node-name" text-anchor="middle">CONNECTED-COMPONENTS</text>
+<text x="720" y="314" class="node-sub" text-anchor="middle">predict ≥ 0.10</text>
+<text x="720" y="332" class="node-sub" text-anchor="middle">cluster ≥ 0.85</text>
+<text x="720" y="350" class="node-sub" text-anchor="middle">0.10–0.85 → review queue</text>
+<line x1="320" y1="350" x2="340" y2="350" stroke="#13315C" stroke-width="1.4" marker-end="url(#navy)"/>
+<line x1="580" y1="350" x2="600" y2="350" stroke="#13315C" stroke-width="1.4" marker-end="url(#navy)"/>
+  <text x="40" y="495" class="layer-tag">▍ OUTPUTS</text>
+<path d="M 90.0 555.0 a 90.0 20.0 0 0 0 180.0 0 v 40 a 90.0 20.0 0 0 1 -180.0 0 z" fill="#F4F7FB" stroke="#13315C" stroke-width="1.2"/>
+<ellipse cx="180" cy="555.0" rx="90.0" ry="20.0" fill="#FFFFFF" stroke="#13315C" stroke-width="1.2"/>
+<text x="180" y="610" class="node-name" text-anchor="middle">clusters.parquet</text>
+<text x="180" y="628" class="node-sub" text-anchor="middle">2,000 entities · entity_id</text>
+<path d="M 360.0 555.0 a 100.0 20.0 0 0 0 200.0 0 v 40 a 100.0 20.0 0 0 1 -200.0 0 z" fill="#fef9c3" stroke="#13315C" stroke-width="1.2"/>
+<ellipse cx="460" cy="555.0" rx="100.0" ry="20.0" fill="#fef3c7" stroke="#13315C" stroke-width="1.2"/>
+<text x="460" y="610" class="node-name" text-anchor="middle">audit_dashboard.html</text>
+<text x="460" y="628" class="node-sub" text-anchor="middle">KPI cards · cluster-size · vendor heatmap · top 20 worst FPs</text>
+<polygon points="620,540 1000,540 987.8756443470179,533.0 607.8756443470179,533.0" fill="#dbeafe" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="1000,540 1000,620 987.8756443470179,613.0 987.8756443470179,533.0" fill="#dbeafe" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="620,540 620,620 607.8756443470179,613.0 607.8756443470179,533.0" fill="#dbeafe" stroke="#13315C" stroke-width="1.2" stroke-linejoin="round"/>
+<rect x="620" y="540" width="380" height="80" fill="none" stroke="#13315C" stroke-width="1.2"/>
+<text x="810" y="570" class="node-name" text-anchor="middle">COST WATERFALL</text>
+<text x="810" y="588" class="node-sub" text-anchor="middle">5 tiers: T0 cache → T1 free → T2 per-call → T3 per-success → T4 premium</text>
+<text x="810" y="606" class="node-sub" text-anchor="middle">per-tier cost + hit-rate + latency → cost-per-resolved profile</text>
+  <rect x="40" y="680" width="1020" height="0" fill="none"/>
+    <text x="40" y="700" class="footnote">Iso cabinet boxes = compute nodes · cylinders = data stores · teal = ER engine boundary · amber = false-merge audit · blue = cost operations · dashed edges = optional / advisory</text>
+</svg>

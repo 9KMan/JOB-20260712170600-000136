@@ -1,0 +1,19 @@
+[project]
+name = "juliet-er"
+version = "0.1.0"
+description = "Entity-resolution PoC for the people-search startup (Splink + cost waterfall + false-merge audit)"
+requires-python = ">=3.11"
+dependencies = [
+  "pandas>=2.2.0",
+  "pyarrow>=16.0.0",
+  "numpy>=1.26.0",
+  # Optional — only required when running the real Splink path
+  "splink[duckdb]>=4.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]

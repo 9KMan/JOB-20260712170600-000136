@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Reports (regenerable)
+apps/entity/data/*.parquet
+apps/entity/reports/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local secrets
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Don't ship internal bid artifacts (Bug 222)
+PROPOSAL.md
+COVER_LETTER.txt
+job.json
+.planning/CONTEXT.md
+.planning/RESEARCH.md
+.planning/.gsd-plan.lock
